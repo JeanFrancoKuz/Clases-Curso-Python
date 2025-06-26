@@ -7,7 +7,6 @@ print("\t4. Dividir")
 print("\t5. Salir")
 opcion = input("\n\tSeleccione una opción (1-5): ")
 
-
 if opcion == "1":
   num1 = float(input("Ingresa el primer número: "))
   num2 = float(input("Ingresa el segundo número: "))
