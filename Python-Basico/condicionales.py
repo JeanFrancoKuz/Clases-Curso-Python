@@ -28,3 +28,24 @@ else:
 isAdult = "Eres mayor de edad" if age >= 18 else "Eres menor de edad"
 
 print(isAdult)
+
+#Ejercicio
+
+option = input("- Para sumar escriba: 1\n- Para restar escriba: 2\n- Para multiplicar escriba: 3\n- Para salir: 4\nRespuesta: ")
+
+if option == "4":
+  print("\n\nGracias por usar esta APP\n")
+elif option not in ["1", "2", "3", "4"]:
+  print("\n\nOpcion no valida, por favor ingrese una opcion valida\n")
+else:
+  num1 = int(input("Ingrese el primer numero: "))
+  num2 = int(input("Ingrese el segundo numero: "))
+  if option == "1":
+      print("\n\nSuma\n")
+      print(f"\nLa suma es: {num1 + num2}")
+  elif option == "2":
+      print("\n\nResta\n")
+      print(f"\nLa resta es: {num1 - num2}")
+  elif option == "3":
+      print("\n\nMultiplicacion\n")
+      print(f"\nLa multiplicacion es: {num1 * num2}")
