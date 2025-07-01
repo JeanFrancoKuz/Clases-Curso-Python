@@ -95,3 +95,36 @@ while attents > 0:
 
 if attents == 0:
   print("¡Cuenta bloqueada!")
+  
+
+#Ejercicio 3
+# Enunciado:  
+# Pide al usuario 5 números enteros. Usando un bucle `for` y `match-case`:
+# 1. Clasifica cada número en:
+#    -"Pequeño" si es menor que 10.
+#    -"Mediano" si está entre 10 y 50.
+#    -"Grande" si es mayor que 50.
+#    -"Cero" si es 0.
+# 2. Al final, muestra cuántos números hubo en cada categoría.
+
+#Solución Ejercicio 3:
+pequeños = medianos = grandes = ceros = 0
+
+print("Ingrese 5 números enteros:")
+for _ in range(5):
+    num = int(input("> "))
+    match num:
+        case 0:
+            ceros += 1
+        case n if n < 10:
+            pequeños += 1
+        case n if 10 <= n <= 50:
+            medianos += 1
+        case _:
+            grandes += 1
+
+print(f"\nResultados:")
+print(f"- Ceros: {ceros}")
+print(f"- Pequeños: {pequeños}")
+print(f"- Medianos: {medianos}")
+print(f"- Grandes: {grandes}")
