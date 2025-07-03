@@ -90,3 +90,12 @@ class Professor(Person):
     # Metodo propio de la clase Profesor
     def darClases(self):
         print(f"Estoy enseñando la materia de {self.classs}")
+        
+        
+#Llamar a la clase Professor y crear un objeto de esa clase
+#Este objeto tendra los atributos de la clase Person y los propios de la clase Professor
+profesorOne = Professor("Andres", 50, "Venezuela", "Programacion")
+
+profesorOne.greet()
+
+profesorOne.darClases()

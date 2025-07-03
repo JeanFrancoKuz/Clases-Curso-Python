@@ -69,3 +69,4 @@ def process(list, callback):
 results = process([1,2,3,4], lambda number: number * 2)
 
 print(f"Los resultados de mi funcion process son: {results}")
+
