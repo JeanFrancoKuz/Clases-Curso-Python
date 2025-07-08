@@ -1,0 +1,1 @@
+& C:/Users/indatech/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/indatech/Desktop/Clases-Curso-Python/Python-Basico/manejo_archivos.py
