@@ -144,4 +144,3 @@ even_numbers = list(filter(is_even, numbers))
 print(even_numbers)
 
 print(list(filter(lambda x: x % 2 == 0, numbers)))
-
